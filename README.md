@@ -1,7 +1,7 @@
 Title: Leveraging Weka for Data Mining in Breast Cancer Detection
 
                                             
-                                                                    Abstract
+                                                                                        Abstract
 
        Breast cancer is a pervasive health concern worldwide, underscoring the importance of early and accurate diagnosis. Data mining, a field within machine learning, has emerged as a valuable tool for extracting insights and patterns from complex healthcare datasets. This abstract provides an overview of a data mining study that harnesses the Weka platform to enhance breast cancer detection.
 
@@ -16,13 +16,13 @@ Title: Leveraging Weka for Data Mining in Breast Cancer Detection
 
 
 
-Introduction to Breast Cancer Detection in Weka for Data Mining
+                                                   Introduction to Breast Cancer Detection in Weka for Data Mining
 
 
                Breast cancer is a widespread and life-threatening disease that affects millions of individuals globally, with early detection being crucial for successful treatment and improved survival rates. To this end, data mining techniques have gained prominence as powerful tools in assisting healthcare professionals with early breast cancer detection. This introduction delves into the utilization of Weka, an open-source data mining tool, for breast cancer detection, addressing the problem definition, and providing a brief overview of the existing literature in this domain.
 
 
-Problem definition
+                                                                    Problem definition
 
             The problem of breast cancer detection revolves around the identification and classification of tumors as malignant (cancerous) or benign (non-cancerous) based on clinical and medical data. The primary goal is to develop accurate predictive models that can aid healthcare practitioners in making informed decisions regarding patient diagnoses. Key components of this problem include:
 
@@ -39,7 +39,7 @@ Problem definition
 •	Interpretation and Deployment: Understanding the model's outputs and integrating it into clinical practice to assist medical professionals in making diagnostic decisions.
 	
 
-Literature review
+                                                                             Literature review
         Breast cancer detection using data mining techniques has been an active area of research, with studies exploring the efficacy of various algorithms. Of note in the literature are the ZeroR and J48 algorithms:
 
 •	ZeroR Algorithm: 
@@ -52,7 +52,7 @@ J48, an implementation of the C4.5 decision tree algorithm, is well-regarded for
 
       While the ZeroR algorithm serves as a simple baseline for comparison, the J48 algorithm holds promise in delivering more nuanced insights into breast cancer detection and classification. These algorithms, alongside others, offer a valuable set of tools within the Weka platform for addressing the critical challenge of early breast cancer detection.
 
-                              Summary and Conclusions
+                                                                              Summary and Conclusions
 
 
 Summary: for ZeroR 
@@ -117,7 +117,7 @@ For the "recurrence-events" class:
 
 
 
-Summary: for ZeroR 
+                                                                       Summary: for ZeroR 
 
 Class-Specific Metrics:
 
@@ -144,7 +144,7 @@ For the "recurrence-events" class:
 •	Recall: 0.000, showing that none of the actual positive instances for this class were correctly classified.
 
 
-Conclusion:
+                                                                             Conclusion:
 Conclusion for ZeroR
 Based on the provided metrics and results, several conclusions can be drawn:
 
@@ -159,7 +159,7 @@ The high values of relative absolute error and root relative squared error indic
 In conclusion, the model's performance, as reflected in these metrics, is inadequate for breast cancer detection, particularly for the "recurrence-events" class. Further investigation and improvements, such as addressing class imbalance, feature engineering, or trying different classification algorithms, are necessary to enhance the model's effectiveness and clinical utility.
 
 
-Conclusion for J48
+                                                                              Conclusion for J48
 
 Based on the provided metrics and results, we can draw the following conclusions:
 
@@ -174,7 +174,7 @@ The model seems to have difficulty correctly identifying instances from the "rec
 In conclusion, while the model's performance is not exceptional, it demonstrates some capability in classifying instances, particularly for the "no-recurrence-events" class. However, improvements are needed to enhance the model's ability to correctly classify instances from the "recurrence-events" class, potentially through adjustments to the model or data preprocessing.
 
 
-References
+                                                                                                 References
  [1] G. Holmes; A. Donkin and I.H. Witten (1994). "Weka: A machine learning workbench". Proc Second Australia and New Zealand Conference on Intelligent Information Systems, Brisbane, Australia. Retrieved 2007-06-25. 
 
 [2] S.R. Garner; S.J. Cunningham, G. Holmes, C.G. Nevill-Manning, and I.H. Witten (1995). "Applying a machine learning workbench: Figure 2: J48 decision tree IJSER International Journal of Scientific & Engineering Research, Volume 6, Issue 11, November-2015 1128 ISSN 2229-5518 IJSER © 2015 http://www.ijser.org Experience with agricultural databases". Proc Machine Learning in Practice Workshop, Machine Learning Conference, Tahoe City, CA, USA. pp. 14–21. Retrieved 2007-06-25.
